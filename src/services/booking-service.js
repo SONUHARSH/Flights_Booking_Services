@@ -102,8 +102,6 @@ async function cancelOldBookings() {
     }
 }
 
-
-
 module.exports = {
     createBooking,
     makePayment,

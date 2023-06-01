@@ -62,4 +62,5 @@ class BookingRepository extends CrudRepository {
     }
 }
 
+
 module.exports = BookingRepository;
