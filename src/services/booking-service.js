@@ -39,7 +39,6 @@ async function createBooking(data) {
     
 }
 
-
 async function makePayment(data) {
     const transaction = await db.sequelize.transaction();
     try {
