@@ -21,8 +21,8 @@ async function createBooking(req, res) {
                 .status(StatusCodes.INTERNAL_SERVER_ERROR)
                 .json(ErrorResponse);
     }
+   
 }
-
 
 module.exports = {
         createBooking   
